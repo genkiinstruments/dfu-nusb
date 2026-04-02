@@ -28,3 +28,7 @@ futures = { version = "0.3.32", features = ["io-compat"] }
 tokio = { version = "1.50.0", features = ["full"] }
 tokio-util = { version = "0.7.18", features = ["compat"] }
 indicatif = { version = "0.18.4", features = [ "tokio" ] }
+
+[[example]]
+name = "download"
+required-features = ["tokio"]
